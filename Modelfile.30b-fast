@@ -1,0 +1,5 @@
+FROM qwen3:30b-a3b-instruct-2507-q4_K_M
+PARAMETER num_ctx 3072
+PARAMETER num_batch 512
+PARAMETER temperature 0.1
+PARAMETER top_p 0.85
